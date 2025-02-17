@@ -126,7 +126,7 @@ static const char ancast_decrypt_hook[] = {
     0xe1, 0x2f, 0xff, 0x1e, 0x01, 0x00, 0x01, 0xa0, 
 };
 
-static const char sd_path[] = "/vol/sdcard";
+static const char sd_path[] = "/vol/sdcard/linux";
 
 static u32 generate_bl_t(u32 from, u32 to){
 	s32 bl_offs = (((s32)to - (s32)(from)) - 4) / 2;
